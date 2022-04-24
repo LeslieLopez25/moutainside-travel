@@ -119,7 +119,7 @@ img {
 
 .nav__logo,
 .nav__toggle {
-    /* color: var(--first-color-lighter); */
+    color: var(--first-color-lighter);
 }
 
 .nav__link {
@@ -144,4 +144,85 @@ img {
 /* SHOW MENU */
 .show-menu {
     top: calc(var(--header-height) + 1rem);
+}
+
+/* INLANDS */
+.islands {
+    height: 100vh;
+    position: relative;
+}
+
+.islands__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.islands__container {
+    position: relative;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr .25fr;
+    align-content: center;
+}
+
+.islands__subtitle,
+.islands__title,
+.islands__description {
+    color: var(--first-color-lighter);
+}
+
+.islands__subtitle {
+    font-size: var(--big-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+.islands__title {
+    font-size: var(--biggest-font-size);
+}
+
+.islands__description {
+    margin-bottom: 1rem;
+}
+
+.islands__button {
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color: var(--first-color-lighter);
+    color: var(--first-color);
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+}
+
+.islands__button:hover {
+    background-color: var(--body-color);
+}
+
+.islands__button-icon {
+    font-size: 1.5rem;
+    margin-left: .5rem;
+}
+
+.islands__video {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: .75rem;
+}
+
+.islands__video-content {
+    display: inline-flex;
+    padding: .15rem;
+    background-color: var(--first-color-lighter);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.islands__video-icon {
+    font-size: 1.8rem;
+    color: var(--first-color);
 }
