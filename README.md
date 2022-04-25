@@ -2,7 +2,7 @@
 
 <h2>A mountain landing page created using HTML, CSS, and JavaScript.</h2>
 
-<p>This landing page created using HTML, CSS, and JavaScript. I created this following the tutorial of Bedimcode. This landing page uses gsap for animation effects and swiper. Screenshot of what the website looks like desktop.</p>
+<p>This landing page created using HTML, CSS, and JavaScript. I created this following the tutorial of Bedimcode. This landing page uses gsap for animation effects and swiper. It also has a video to it by clicking the play button. Screenshot of what the website looks like desktop.</p>
 
 - Live Site: [Mountainside Travel](https://mountainside-travel.netlify.app/)
 
